@@ -11,14 +11,14 @@ pipeline
                 echo 'build app'
             }
         }
-stage('test') 
+        stage('test') 
         {
             steps 
             {
                 echo 'testing'
             }
         }
-stage('deploy') 
+        stage('deploy') 
         {
             steps 
             {
