@@ -1,7 +1,6 @@
 pipeline {
     agent any
-
-    stages {
+      stages {
         stage('create') {
             steps {
                 echo 'creatijng'
